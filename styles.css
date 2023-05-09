@@ -9,10 +9,27 @@ h1{
     display: inline;
 }
 .container{
-    border: none;
-    margin: auto;
-    margin-top: 25px;
-    width: 50%;
-    padding: 10px;
     text-align: center;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: center;
+        text-align: center;
+    }
+    /* Add your smartphone-specific styles here */
+}
+@media (min-width: 601px) and (max-width: 900px) {
+    .container {
+        margin: center;
+        text-align: center;
+    }
+    /* Add your tablet-specific styles here */
+}
+@media (min-width: 901px) {
+    .container {
+        margin: center;
+        text-align: center;
+    }
+    /* Add your desktop-specific styles here */
 }
