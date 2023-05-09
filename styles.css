@@ -1,5 +1,18 @@
-#clock, #greeting{
+#clock, #greeting, #temp, #greetingtemp, h1{
     font-size: 50px;
-    font-family: Arial, sans-serif;
+    font-family: Verdana, sans-serif;
     color: #333;
+    font-weight: normal;
+}
+
+h1{
+    display: inline;
+}
+.container{
+    border: none;
+    margin: auto;
+    margin-top: 25px;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
 }
